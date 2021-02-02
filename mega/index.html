@@ -23,8 +23,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/icons/favicon_144.png" />
     <link rel="apple-touch-icon-precomposed" sizes="192x192" href="assets/icons/favicon_192.png" />
 
-
-
         <!-- 페이스북 메타 태그 -->
     <meta property="og:title" content="메가박스 사이트 만들기" />
     <meta property="og:url" content="https://github.com/webstoryboy/megabox2019" />
@@ -39,6 +37,10 @@
     <meta name="twitter:description" content="메가박스 사이트 따라하면서 배우는 튜토리얼입니다.">
     <!-- 페북이나 트위터에서 퍼갈 때 이 정보로 가져가라~~ -->
 
+    <!-- 웹폰트 설정 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
     <!-- HTLM5shiv ie6~8 -->
     <!--[if lt IE 9]> 
       <script src="assets/js/html5shiv.min.js"></script>
@@ -49,11 +51,39 @@
    <!-- 다른 사이트(구 브라우저 등)에서 사용할 때... -->
 </head>
 <body>
+
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="header clearfix">
+                    <h1> 
+                        <a href="#">
+                            <em><img src="assets/img/logo.png" alt="MEGABOX"></em>
+                            <strong><img src="assets/img/logo-sub.png" alt="LIFE THEATER"></strong>
+                        </a> 
+                    </h1>
+                    <nav class="nav">
+                        <ul class="clearfix">
+                            <li> <a href="#">영화</a> </li>  
+                            <li> <a href="#">큐레이션</a> </li>  
+                            <li> <a href="#">영화관</a> </li>  
+                            <li> <a href="#">특별관</a> </li>  
+                            <li> <a href="#">스토어</a> </li>  
+                            <li> <a href="#">이벤트</a> </li>  
+                            <li> <a href="#">로그인</a> </li>  
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+
+
     <script src="assets/js/jquery.min_1.12.4.js"></script>
     <script src="assets/js/modernizr-custom.js"></script>
     <script src="assets/js/ie-checker.js"></script>
     <!-- 제이쿼리 라이브러리, modernizr(:사용자 브라우저 기능을 감지/지원 여부 결정, 브라우저 호환성 유지)와 ie-checker 라이브러리  -->
-
 
 </body>
 </html>
